@@ -1,0 +1,43 @@
+.home table{
+	width:100%;
+	padding-left:1%;
+	padding-right:1%;
+	padding-bottom:2%;
+}
+.home table tr{
+	padding-left:4%;
+}
+
+.home table tr th{
+	font-size:22px;	
+}
+.home table tr td{
+	font-size:18px;
+	padding:1%;
+	text-align:center;
+	text-transform:capitalize;
+}
+
+.home table tr td:nth-child(1)
+{
+	text-align:left;
+}
+
+.home #result tr td:nth-child(2)
+{
+	text-align:left;
+}
+
+#marksheet #marks
+{
+	border-collapse:collapse;
+}
+
+#progress
+{
+	color:White;
+	font-size:18px;
+	border-radius:5px;
+	width:20%;
+	font-weight:bold;
+}

@@ -1,0 +1,27 @@
+<?php
+	$course=$_POST['course'];
+	$firstname=$_POST['first_name'];
+	$middlename=$_POST['middle_name'];
+	$lastname=$_POST['last_name'];
+	$fathername=$_POST['father_name'];
+	$mothername=$_POST['mother_name'];
+	$gender=$_POST['gender'];
+	$dateofbirth=$_POST['date_of_birth'];
+	$category=$_POST['category'];
+	$religion=$_POST['religion'];
+	$personalcontact=$_POST['personal_contact'];
+	$parentcontact=$_POST['parent_contact'];
+	$email=$_POST['email'];
+	$permanentaddress=$_POST['permanent_address'];
+	$permanentcity=$_POST['permanent_city'];
+	$permanentdistrict=$_POST['permanent_district'];
+	$state=$_POST['state'];
+	$permanentpincode=$_POST['permanent_pincode'];
+	$temporaryaddress=$_POST['temporary_address'];
+	$temporarycity=$_POST['temporary_city'];
+	$temporarydistrict=$_POST['temporary_district'];
+	$temporarystate=$_POST['temporary_state'];
+	$temporarypincode=$_POST['temporary_pincode'];
+	//if(isset($_POST['aadhar_no']))
+	$aadharno=$_POST['aadhar_no'];
+?>

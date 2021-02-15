@@ -1,0 +1,195 @@
+/*
+	* Appling Every HTML Element With 0px Margin and Padding
+*/
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+/* 
+	* This Property will set on Mandatory criteria's style
+*/
+
+.mandatory{
+	color:red;
+}
+
+/*
+	*Setting up the Main Content of All Pages
+*/
+
+.err
+{
+	font-size:22px;
+	color:red;
+	font-weight:bold;
+	animation:error .5s infinite;
+}
+
+@keyframes error
+{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+.main_div{
+	margin-top:5px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:5px;
+	width:80%;
+	height:100%;
+	background:lightyellow;
+	position:relative;
+	float:left;
+}
+
+/*
+	*Setting up the Heading of All Pages
+*/
+
+.main_div #header h1{
+	background:black;
+	color:white;
+	text-align:center;
+	line-height:50px;
+	width:100%;
+}
+
+/*
+	*Setting up the Main Menu
+*/
+
+.main_div #menu{
+	width:100%;
+	background:orange;
+	margin:0px;
+	position:absolute;
+}
+
+.main_div #menu ul{
+	list-style:none;
+	position:relative;
+} 
+
+.main_div #menu ul li{
+	background:orange;
+	width:20%;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	float:left;
+	position:relative;
+}
+
+.main_div #menu ul li a{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	font-size:22px;
+	outline:none;
+	text-shadow:1px 2px 1px brown;
+}
+
+.main_div #menu ul li a:hover{
+	background:red;
+	text-shadow:1px 1px 3px black;
+}
+
+/*
+	*Setting up the Sub Menu
+*/
+
+.main_div #menu ul ul{
+	position:absolute;
+	display:none;
+	margin:0px;
+	padding:0px;
+}
+
+.main_div #menu ul ul li{
+	width:100%;
+}
+
+.main_div #menu ul li:hover > ul{
+	display:block;
+	width:100%;
+}
+
+
+
+.btn{
+	color:white;
+	background:blue;
+	text-shadow:2px 2px 5px black;
+	box-shadow:2px 2px 2px black;
+	font-weight:bold;
+	outline:none;
+	border:none;
+	border-radius:4px;
+	height:30px;
+	width:90px;
+	line-height:30px;
+	font-size:18px;
+	display:block;
+}
+.btn:active{
+	width:88px;
+	height:28px;
+	line-height:28px;
+	box-shadow:1px 1px 2px black;
+}
+
+.btn:hover{
+	background:green;
+}
+
+.text{
+	border:none;
+	border-bottom:2px solid brown;
+	outline:none;
+	width:100%;
+	height:100%;
+	font-size:16px;
+}
+.text:focus{
+	background:lightpink;
+}
+
+select{
+	border:none;
+	outline:none;
+	border-bottom:2px solid brown;
+}
+
+.heading{
+	padding-top:100px;
+	padding-bottom:20px;
+	text-decoration:underline;
+	text-align:center;
+}
+
+#footer{
+	background:orange;
+	width:100%;
+	margin-top:5px;
+}
+#footer table{
+	width:100%;
+	text-align:center;
+}
+#footer table tr td img{
+	width:30px;
+	height:30px;
+}
+
+.student{
+	font-size:20px;
+	color:blue;
+}
+.student span{
+	color:black;
+	font-weight:bold;
+}

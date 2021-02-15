@@ -1,0 +1,42 @@
+#record{
+	font-size:20px;
+	border-collapse:collapse;
+}
+
+#table{
+	overflow:auto;
+}
+
+#record tr th{
+	background:#669900;
+	color:white;
+	position:sticky;
+	padding-left:10px;
+	padding-right:10px;
+	height:35px;
+	text-shadow:1px 1px 1px black;
+}
+
+#record tr:nth-child(even){
+	background:#eaebbe;
+}
+
+#record tr:nth-child(odd){
+	background:#baba5a;
+}
+
+#record tr{
+	text-align:center;
+	border:1px solid black;	
+}
+
+#record tr td{
+	padding-left:10px;
+	padding-right:10px;
+	width:20px;
+}
+
+.home{
+	/*overflow:auto;
+	margin-top:45px;*/
+}
