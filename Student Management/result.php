@@ -44,7 +44,7 @@
 								}
 								else
 								{
-									$message="No Record Found.";
+									//$message="No Record Found.";
 								}
 								mysqli_close($conn);
 							}
