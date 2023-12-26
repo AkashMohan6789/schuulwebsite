@@ -42,10 +42,10 @@
 									echo "</select></td>";
 									unset($_POST['submit1']);
 								}
-								else
+								/*else
 								{
 									$message="No Record Found.";
-								}
+								}*/
 								mysqli_close($conn);
 							}
 						?>
